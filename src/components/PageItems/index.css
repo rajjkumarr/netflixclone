@@ -1,0 +1,21 @@
+.react-slick-item {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  width: 50vw;
+}
+
+.poster {
+  height: 130px;
+  width: 130px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.containerr {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

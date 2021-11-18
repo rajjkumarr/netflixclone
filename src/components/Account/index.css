@@ -1,0 +1,64 @@
+.account-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.accounts {
+  display: flex;
+  flex-direction: column;
+}
+
+.account {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+
+  font-family: 'Roboto';
+  margin-top: 50px;
+}
+
+.line {
+  /* color: #e5e5e5; */
+  color: red;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  background-color: red;
+  height: 40px;
+  width: 80px;
+  border-radius: 3px;
+  border: 0px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.account-detail {
+  display: flex;
+  padding: 3px;
+}
+
+.para-details {
+  color: black;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-right: 10px;
+}
+
+.ultra {
+  color: black;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-left: 10px;
+  border: 1px solid black;
+}

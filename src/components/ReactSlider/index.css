@@ -1,0 +1,90 @@
+.headings {
+  /* position: absolute; */
+  /* margin-right: 10px; */
+  /* left: 11.46%;
+    right: 74.86%;
+    top: 37.76%;
+    bottom: 59.75%; */
+  margin-left: 30px;
+  margin: 20px;
+
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  /* identical to box height */
+
+  /* General/White */
+
+  color: #ffffff;
+}
+
+@media screen and (max-width: 991px) {
+  .headings {
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 26px;
+    /* identical to box height */
+
+    /* General/White */
+
+    color: #ffffff;
+  }
+}
+
+.react-slick-item {
+  /* background: skyblue; */
+  display: flex;
+  flex-direction: column;
+  /* height: 140px;
+  width: 120px; */
+  border-radius: 5px;
+  /* margin-top: 96px; */
+
+  /* margin: 6px; */
+}
+
+.slick-app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 200vh;
+  weight: 100vw; */
+  /* height: 300px;
+  width: 100vw; */
+  /* margin-top: 50px; */
+
+  width: 100%;
+  /* margin-top: 800px; */
+  /* left: 450px;
+  top: 702px; */
+}
+
+@media screen and (max-width: 767px) {
+  .poster1 {
+    /* margin: 0px 10px; */
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .poster {
+    margin: 0px 15px;
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .poster {
+    /* margin: 0px 30px; */
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+  }
+}
